@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const url = "mongodb+srv://cSegalas:<password>@cluster0.cdqedf5.mongodb.net/?retryWrites=true&w=majority";
+const url = "url-do-banco";
 mongoose
   .connect(url, { useNewUrlParser: true })
   .then(() => {
